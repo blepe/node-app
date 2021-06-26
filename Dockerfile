@@ -1,4 +1,4 @@
-FROM node:lts-buster
+FROM node:lts-buster-slim
 RUN npm i -g npm
 RUN npm i -g nodemon
 
